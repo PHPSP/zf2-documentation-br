@@ -33,7 +33,7 @@ para
 
 no seu arquivo ``httpd.conf``. Verifique na documentação da sua distribuição para detalhes 
 mais precisos. Você não poderá navegar para nenhuma página além da página inicial desse 
-tutoria se não tiver configurado corretamente o uso de mod_rewrite e .htaccess.
+tutorial se não tiver configurado corretamente o uso de mod_rewrite e .htaccess.
 
 A Aplicação Tutorial
 --------------------
@@ -45,25 +45,25 @@ que você adicione, edite e delete albuns. Para isso nós vamos precisar de quat
 +--------------------+------------------------------------------------------------+
 | Pagina             | Descrição                                                  |
 +====================+============================================================+
-| Lista de Albuns    | Ess página ira exibir a lista de albuns e possuir links    |
-|                    | para edição e exclusão deles. também conterá um link para  |
-|                    | a inclusão de um novo album.                               |
+| Lista de Álbuns    | Essa página exibirá a lista de albuns e possuirá links     |
+|                    | para edição e exclusão desses álbuns. Também conterá um    |
+|                    | link para a inclusão de um novo álbum.                     |
 +--------------------+------------------------------------------------------------+
-| Inclusão de Albuns | Conterá um formulário para inclusão de um novo album.      |
+| Inclusão de Álbuns | Conterá um formulário para inclusão de um novo álbum.      |
 +--------------------+------------------------------------------------------------+
-| Edição de Albuns   | Conterá um formulário para edição de um album.             |
+| Edição de Álbuns   | Conterá um formulário para edição de um álbum.             |
 +--------------------+------------------------------------------------------------+
-| Exclusão de Albuns | Essa página irá confirmar se você realmente deseja         |
-|                    | excluir um album e então realizará a exclusão.             |
+| Exclusão de Álbuns | Essa página irá confirmar se você realmente deseja         |
+|                    | excluir um álbum e então realizará a exclusão.             |
 +--------------------+------------------------------------------------------------+
 
-Nós também iremos precisar armazenar os dados em um banco de dados. Iremos precisar apenas de uma
+Nós também precisaremos armazenar os dados em um banco de dados. Precisaremos apenas de uma
 tabela para isso com as seguintes colunas:
 
 +------------+--------------+-------+----------------------------------+
 | Coluna     | Tipo         | Null? | Notas                            |
 +============+==============+=======+==================================+
-| id         | integer      | Não   | Chave primaria, auto incremental |
+| id         | integer      | Não   | Chave primária, auto incremental |
 +------------+--------------+-------+----------------------------------+
 | artist     | varchar(100) | Não   |                                  |
 +------------+--------------+-------+----------------------------------+
