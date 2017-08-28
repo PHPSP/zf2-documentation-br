@@ -1,13 +1,13 @@
 .. EN-Revision: 96c6ad3
 .. _user-guide.database-and-models:
 
-Bando de Dados e Models
+Banco de Dados e Models
 =======================
 
 O Banco de Dados
 ----------------
 
-Agora que nos temos o módulo ``Album`` configurado com controllers, ações e
+Agora que nós temos o módulo ``Album`` configurado com controllers, ações e
 views, está na hora de olhar para a seção de models de nossa aplicação.
 Lembre-se que os models são a parte que lida com o proposito pricipal de
 uma aplicação (também chamado de "regras de negócio") e, em nosso caso, lida
